@@ -1,0 +1,66 @@
+.genre-button {
+  width: 100%;
+  max-width: 180px;
+  font-weight: bold;
+  padding: 20px;
+  color: gray;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+.genre-button.active {
+  background: #333333;
+  color: #fff;
+  border: 2px solid #333333;
+}
+
+
+.cta-button {
+  position: relative;
+  width: 100%;
+  max-width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: #333333;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+.cta-button.active {
+  background: #333333;
+  color: #fff;
+  border: 2px solid #333333;
+}
+
+.cta-button.disabled {
+  background: rgba(155, 155, 155, 0.5);
+  color: #000;
+  border: 2px solid rgba(187, 187, 187, .5);
+  cursor: auto;
+}
+.cta-button img {
+  position: absolute;
+  width: 20%;
+  left: 10px;
+}
+
+.input-app {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  outline: none;
+
+  &::placeholder {
+    opacity: .35;
+  }
+}
